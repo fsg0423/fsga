@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>响应式文件</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        #div1{
+            width: 200px;
+            height: 200px;
+            background: #ff0000;
+        }
+        /*媒体查询*/
+        @media (max-width:767px) {
+            #div1{
+                background: #a4ff4a;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div id="div1"></div>
+</body>
+</html>
